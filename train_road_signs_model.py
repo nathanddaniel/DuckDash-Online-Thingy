@@ -33,8 +33,8 @@ label_map = {
     10: 'vehicle'
 }
 
-images_in = '/content/dataset/images'
-annotations_in = '/content/dataset/annotations'
+images_in = '/content/Dataset/images'
+annotations_in = '/content/Dataset/annotations'
 
 train_dir, val_dir, test_dir = split_dataset(images_in, annotations_in,
                                               val_split=0.2, test_split=0.2,
