@@ -11,7 +11,7 @@
 		<depth>3</depth>
 	</size>
 	<object>
-		<name>Yield Sign</name>
+		<name>sign_yield</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

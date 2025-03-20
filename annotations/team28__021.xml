@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>One Way Right</name>
+		<name>sign_oneway_right</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
