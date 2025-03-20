@@ -18,10 +18,10 @@
     <occluded>0</occluded>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>257.43</xmin>
-      <ymin>237.02</ymin>
-      <xmax>418.04</xmax>
-      <ymax>387.47</ymax>
+      <xmin>257</xmin>
+      <ymin>237</ymin>
+      <xmax>418</xmax>
+      <ymax>387</ymax>
     </bndbox>
     <attributes>
       <attribute>
