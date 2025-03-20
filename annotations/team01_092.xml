@@ -11,7 +11,7 @@
 		<depth>3</depth>
 	</size>
 	<object>
-		<name>	Ducks (Regular)</name>
+		<name>duck_regular</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
