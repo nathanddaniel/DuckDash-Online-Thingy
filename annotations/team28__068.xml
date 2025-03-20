@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>team28__068_jpg.rf.a74db3c364a4ca55c7e379412ec9956f.jpg</filename>
+	<path>team28__068_jpg.rf.a74db3c364a4ca55c7e379412ec9956f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Yield Sign</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>734</xmin>
+			<xmax>852</xmax>
+			<ymin>251</ymin>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

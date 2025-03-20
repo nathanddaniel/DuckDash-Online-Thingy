@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>team28__092_jpg.rf.2f4a00e51f764b930f6a0dc85f72ff9d.jpg</filename>
+	<path>team28__092_jpg.rf.2f4a00e51f764b930f6a0dc85f72ff9d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Do Not Enter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>605</xmin>
+			<xmax>673</xmax>
+			<ymin>164</ymin>
+			<ymax>231</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

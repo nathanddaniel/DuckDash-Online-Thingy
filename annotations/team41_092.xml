@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>team41_092_jpg.rf.f79f83e75a66b66f4b2689f0a889be4b.jpg</filename>
+	<path>team41_092_jpg.rf.f79f83e75a66b66f4b2689f0a889be4b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sign_stop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>63</xmin>
+			<xmax>277</xmax>
+			<ymin>67</ymin>
+			<ymax>339</ymax>
+		</bndbox>
+	</object>
+</annotation>

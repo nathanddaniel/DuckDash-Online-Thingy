@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>team28__050_jpg.rf.46f739c7c293c65b286c70e52fcca59e.jpg</filename>
+	<path>team28__050_jpg.rf.46f739c7c293c65b286c70e52fcca59e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>One Way Right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>462</xmin>
+			<xmax>602</xmax>
+			<ymin>161</ymin>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

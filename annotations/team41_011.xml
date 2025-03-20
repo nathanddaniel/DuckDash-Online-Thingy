@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>team41_011_jpg.rf.370195324a9228fc1444e3efc3fb602e.jpg</filename>
+	<path>team41_011_jpg.rf.370195324a9228fc1444e3efc3fb602e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>duck_regular</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>179</xmin>
+			<xmax>424</xmax>
+			<ymin>157</ymin>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+</annotation>

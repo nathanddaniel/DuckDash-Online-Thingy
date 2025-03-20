@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>team41_049_jpg.rf.db2ea0c3a375601c11b5fda57803fa9e.jpg</filename>
+	<path>team41_049_jpg.rf.db2ea0c3a375601c11b5fda57803fa9e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>vehicle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>52</xmin>
+			<xmax>573</xmax>
+			<ymin>1</ymin>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>team41_071_jpg.rf.dc5db7d64f4a9cd776530f5abd209c65.jpg</filename>
+	<path>team41_071_jpg.rf.dc5db7d64f4a9cd776530f5abd209c65.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sign_noentry</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>88</xmin>
+			<xmax>211</xmax>
+			<ymin>55</ymin>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>
