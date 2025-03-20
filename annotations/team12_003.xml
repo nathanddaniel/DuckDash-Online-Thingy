@@ -1,5 +1,5 @@
 <annotation>
-	<folder></folder>
+	<folder />
 	<filename>team12_003.jpg</filename>
 	<path>team12_003.jpg</path>
 	<source>
@@ -23,19 +23,7 @@
 			<ymin>38</ymin>
 			<ymax>85</ymax>
 		</bndbox>
-		<polygon>
-			<x1>116.448927</x1>
-			<y1>48.686545</y1>
-			<x2>125.336968</x2>
-			<y2>83.801455</y2>
-			<x3>149.561567</x3>
-			<y3>62.797091</y3>
-			<x4>143.202998</x4>
-			<y4>37.349818</y4>
-			<x5>116.448927</x5>
-			<y5>48.686545</y5>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>sign_stop</name>
 		<pose>Unspecified</pose>
@@ -48,27 +36,7 @@
 			<ymin>67</ymin>
 			<ymax>212</ymax>
 		</bndbox>
-		<polygon>
-			<x1>426.63523</x1>
-			<y1>207.808</y1>
-			<x2>455.402521</x2>
-			<y2>168.626909</y2>
-			<x3>454.49431</x3>
-			<y3>110.865455</y3>
-			<x4>421.184872</x4>
-			<y4>66.432727</y4>
-			<x5>378.185486</x5>
-			<y5>72.896</y5>
-			<x6>347.226712</x6>
-			<y6>122.626182</y6>
-			<x7>350.02385</x7>
-			<y7>176.705455</y7>
-			<x8>381.819421</x8>
-			<y8>211.04</y8>
-			<x9>426.63523</x9>
-			<y9>207.808</y9>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>duck_specialty</name>
 		<pose>Unspecified</pose>
@@ -120,19 +88,7 @@
 			<ymin>50</ymin>
 			<ymax>93</ymax>
 		</bndbox>
-		<polygon>
-			<x1>459.436048</x1>
-			<y1>55.959273</y1>
-			<x2>482.352845</x2>
-			<y2>92.284364</y2>
-			<x3>535.042726</x3>
-			<y3>84.609455</y3>
-			<x4>502.338944</x4>
-			<y4>49.467636</y4>
-			<x5>459.436048</x5>
-			<y5>55.959273</y5>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>road_oneway</name>
 		<pose>Unspecified</pose>

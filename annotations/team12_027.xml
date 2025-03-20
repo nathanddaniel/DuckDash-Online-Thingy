@@ -1,5 +1,5 @@
 <annotation>
-	<folder></folder>
+	<folder />
 	<filename>team12_027.jpg</filename>
 	<path>team12_027.jpg</path>
 	<source>
@@ -23,19 +23,7 @@
 			<ymin>219</ymin>
 			<ymax>289</ymax>
 		</bndbox>
-		<polygon>
-			<x1>359.108143</x1>
-			<y1>226.389091</y1>
-			<x2>314.518024</x2>
-			<y2>217.777455</y2>
-			<x3>315.200545</x3>
-			<y3>275.668364</y3>
-			<x4>360.622555</x4>
-			<y4>288.190545</y4>
-			<x5>359.108143</x5>
-			<y5>226.389091</y5>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>sign_oneway_right</name>
 		<pose>Unspecified</pose>
@@ -48,17 +36,5 @@
 			<ymin>225</ymin>
 			<ymax>269</ymax>
 		</bndbox>
-		<polygon>
-			<x1>276.743305</x1>
-			<y1>223.561455</y1>
-			<x2>189.58937</x2>
-			<y2>223.838545</y2>
-			<x3>192.561499</x3>
-			<y3>268.397818</y3>
-			<x4>279.468484</x4>
-			<y4>264.358545</y4>
-			<x5>276.743305</x5>
-			<y5>223.561455</y5>
-		</polygon>
-	</object>
+		</object>
 </annotation>

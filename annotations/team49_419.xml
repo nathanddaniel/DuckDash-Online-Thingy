@@ -1,7 +1,7 @@
 <annotation>
-	<folder></folder>
-	<filename>team49_140_jpg.rf.18044913335824377cc817caab931acb.jpg</filename>
-	<path>team49_140_jpg.rf.18044913335824377cc817caab931acb.jpg</path>
+	<folder />
+	<filename>team49_140.jpg</filename>
+	<path>team49_140.jpg</path>
 	<source>
 		<database>roboflow.com</database>
 	</source>

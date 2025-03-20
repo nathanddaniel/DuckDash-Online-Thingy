@@ -1,5 +1,5 @@
 <annotation>
-	<folder></folder>
+	<folder />
 	<filename>team12_075.jpg</filename>
 	<path>team12_075.jpg</path>
 	<source>
@@ -23,19 +23,7 @@
 			<ymin>246</ymin>
 			<ymax>340</ymax>
 		</bndbox>
-		<polygon>
-			<x1>254.335128</x1>
-			<y1>244.970182</y1>
-			<x2>151.984191</x2>
-			<y2>278.092364</y2>
-			<x3>153.801158</x3>
-			<y3>339.489455</y3>
-			<x4>257.363407</x4>
-			<y4>299.096727</y4>
-			<x5>254.335128</x5>
-			<y5>244.970182</y5>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>sign_stop</name>
 		<pose>Unspecified</pose>

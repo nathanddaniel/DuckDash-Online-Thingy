@@ -1,5 +1,5 @@
 <annotation>
-	<folder></folder>
+	<folder />
 	<filename>team12_008.jpg</filename>
 	<path>team12_008.jpg</path>
 	<source>
@@ -23,19 +23,7 @@
 			<ymin>262</ymin>
 			<ymax>330</ymax>
 		</bndbox>
-		<polygon>
-			<x1>63.260239</x1>
-			<y1>261.127273</y1>
-			<x2>29.679864</x2>
-			<y2>291.111273</y2>
-			<x3>46.908075</x3>
-			<y3>329.391273</y3>
-			<x4>79.914957</x4>
-			<y4>297.480727</y4>
-			<x5>63.260239</x5>
-			<y5>261.127273</y5>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>sign_oneway_left</name>
 		<pose>Unspecified</pose>
@@ -48,19 +36,7 @@
 			<ymin>176</ymin>
 			<ymax>214</ymax>
 		</bndbox>
-		<polygon>
-			<x1>546.246542</x1>
-			<y1>186.803636</y1>
-			<x2>475.790392</x2>
-			<y2>174.747636</y2>
-			<x3>474.177308</x3>
-			<y3>199.729455</y3>
-			<x4>540.795639</x4>
-			<y4>213.463273</y4>
-			<x5>546.246542</x5>
-			<y5>186.803636</y5>
-		</polygon>
-	</object>
+		</object>
 	<object>
 		<name>duck_specialty</name>
 		<pose>Unspecified</pose>

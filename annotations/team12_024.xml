@@ -1,5 +1,5 @@
 <annotation>
-	<folder></folder>
+	<folder />
 	<filename>team12_024.jpg</filename>
 	<path>team12_024.jpg</path>
 	<source>
@@ -36,17 +36,5 @@
 			<ymin>353</ymin>
 			<ymax>438</ymax>
 		</bndbox>
-		<polygon>
-			<x1>319.439591</x1>
-			<y1>351.607273</y1>
-			<x2>218.663578</x2>
-			<y2>386.868364</y2>
-			<x3>222.842658</x3>
-			<y3>437.240727</y3>
-			<x4>324.587394</x4>
-			<y4>398.463273</y4>
-			<x5>319.439591</x5>
-			<y5>351.607273</y5>
-		</polygon>
-	</object>
+		</object>
 </annotation>
