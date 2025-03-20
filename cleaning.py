@@ -5,8 +5,7 @@ import re
 # Define absolute paths based on your Windows setup
 ANNOTATION_DIR = r"C:\Me\Queens\3rd Year\Winter\ELEC 390\DuckDash-Online-Thingy\DuckDash-Online-Thingy\annotations"
 
-# Define specific teams for different fixes
-REMOVE_POLYGON_TEAMS = {"12"}  # Only remove polygons for team 12
+# Define specific teams for filename fixes
 FIX_FILENAME_TEAMS = {"49", "28"}  # Fix filenames for teams 49 and 28
 
 def clean_xml_files():
@@ -30,13 +29,13 @@ def clean_xml_files():
             if match:
                 team_number = match.group(1)
 
-                # Step 1: Remove <polygon> elements for team 12
-                if team_number in REMOVE_POLYGON_TEAMS:
-                    for obj in root.findall("object"):
-                        polygon = obj.find("polygon")
-                        if polygon is not None:
-                            obj.remove(polygon)  # Remove polygon tag
-                            modified = True
+                # Step 1: Remove <polygon> elements (for ANY team that has them)
+                for obj in root.findall("object"):
+                    polygon = obj.find("polygon")
+                    if polygon is not None:
+                        obj.remove(polygon)  # Remove polygon tag
+                        modified = True
+                        print(f"Removed polygon from {xml_file} (Team {team_number})")
 
                 # Step 2: Fix incorrect filenames for teams 49 and 28
                 if team_number in FIX_FILENAME_TEAMS:
@@ -53,8 +52,8 @@ def clean_xml_files():
         # Save modifications if changes were made
         if modified:
             tree.write(xml_path)
-            print(f"Updated {xml_file}")
+            print(f"✅ Updated {xml_file}")
 
 if __name__ == "__main__":
     clean_xml_files()
-    print("✅ XML cleanup completed: Polygons removed for team 12, filenames fixed for teams 49 & 28!")
+    print("\n✅ XML cleanup completed: Polygons removed from all teams, filenames fixed for teams 49 & 28!")
