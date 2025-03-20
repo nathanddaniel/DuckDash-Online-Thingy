@@ -6,9 +6,9 @@ import random
 import os
 
 # Select a random image from the test set
-images_path = "/content/split-dataset/test/images"  # Updated to use test images
-filenames = os.listdir(images_path)
-random_index = random.randint(0, len(filenames) - 1)
+images_path = "/content/split-dataset/train/images"
+filenames = os.listdir(os.path.join(images_path))
+random_index = random.randint(0,len(filenames)-1)
 INPUT_IMAGE = os.path.join(images_path, filenames[random_index])
 
 import tflite_runtime.interpreter as tflite

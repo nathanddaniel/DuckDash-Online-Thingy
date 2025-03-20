@@ -16,7 +16,7 @@ def split_dataset(images_path, annotations_path, val_split, test_split, out_path
     """
 
     train_dir = os.path.join(out_path, 'train')
-    val_dir = os.path.join(out_path, 'val')  # ✅ Updated to 'val' to match training script
+    val_dir = os.path.join(out_path, 'validation')  
     test_dir = os.path.join(out_path, 'test')
 
     IMAGES_TRAIN_DIR = os.path.join(train_dir, 'images')
@@ -41,25 +41,27 @@ def split_dataset(images_path, annotations_path, val_split, test_split, out_path
     random.seed(42)
     random.shuffle(filenames)
     
+    # Get all filenames for this dir, filtered by filetype
+    filenames = os.listdir(os.path.join(images_path))
+    filenames = [os.path.join(images_path, f) for f in filenames if (f.endswith('.jpg'))]
+    # Shuffle the files, deterministically
+    filenames.sort()
+    random.seed(42)
+    random.shuffle(filenames)
     # Get exact number of images for validation and test; the rest is for training
     val_count = int(len(filenames) * val_split)
     test_count = int(len(filenames) * test_split)
-
-    for i, filename in enumerate(filenames):
-        img_file = os.path.join(images_path, filename)
-        annot_file = os.path.join(annotations_path, filename.replace(".jpg", ".xml"))
-
+    
+    for i, file in enumerate(filenames):
+        source_dir, filename = os.path.split(file)
+        annot_file = os.path.join(annotations_path, filename.replace("jpg", "xml"))
         if i < val_count:
-            shutil.copy(img_file, IMAGES_VAL_DIR)
-            if os.path.exists(annot_file):  # ✅ Check if annotation exists before copying
-                shutil.copy(annot_file, ANNOT_VAL_DIR)
+            shutil.copy(file, IMAGES_VAL_DIR)
+            shutil.copy(annot_file, ANNOT_VAL_DIR)
         elif i < val_count + test_count:
-            shutil.copy(img_file, IMAGES_TEST_DIR)
-            if os.path.exists(annot_file):
-                shutil.copy(annot_file, ANNOT_TEST_DIR)
+            shutil.copy(file, IMAGES_TEST_DIR)
+            shutil.copy(annot_file, ANNOT_TEST_DIR)
         else:
-            shutil.copy(img_file, IMAGES_TRAIN_DIR)
-            if os.path.exists(annot_file):
-                shutil.copy(annot_file, ANNOT_TRAIN_DIR)
-
-    return train_dir, val_dir, test_dir
+            shutil.copy(file, IMAGES_TRAIN_DIR)
+            shutil.copy(annot_file, ANNOT_TRAIN_DIR)
+    return (train_dir, val_dir, test_dir)
